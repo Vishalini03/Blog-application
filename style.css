@@ -1,0 +1,149 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+}
+
+#app {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #007bff;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #007bff;
+}
+
+#createBlogButton {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+main {
+    margin-top: 20px;
+}
+
+.blog-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.blog-card h2 {
+    color: #007bff;
+}
+
+.blog-card p {
+    color: #555;
+    margin-top: 10px;
+}
+
+.blog-card button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.blog-card button:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .blog-card {
+        width: 100%;
+    }
+}
+
+#createBlogForm {
+    display: none;
+    margin-top: 20px;
+}
+
+#createBlogForm h2 {
+    color: #007bff;
+}
+
+#createBlogForm input,
+#createBlogForm textarea,
+#createBlogForm button {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 8px;
+}
+
+#createBlogForm button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#comments {
+    display: none;
+    margin-top: 20px;
+}
+
+#comments h2 {
+    color: #007bff;
+}
+
+.comment-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.comment-card p {
+    margin-bottom: 5px;
+}
+
+#submitCommentButton {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
